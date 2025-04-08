@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+.DS_Store
+*.log
+
+# PM2 logs (if you're using it)
+pids
+logs
+*.pid
+*.seed
+
+# System
+.env.local
+.env.*.local
+.idea/
+.vscode/
+*.swp

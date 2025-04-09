@@ -20,7 +20,6 @@ async function sendQuote() {
   try {
     await bot.sendMessage(process.env.TELEGRAM_CHAT_ID, fullMessage, {
       parse_mode: "Markdown",
-      message_thread_id: parseInt(process.env.TELEGRAM_TOPIC_ID),
     });
     console.log(`[${new Date().toISOString()}] Quote sent.`);
   } catch (err) {
